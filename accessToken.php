@@ -24,7 +24,7 @@ curl_setopt($curl, CURLOPT_RETURNTRANSFER, TRUE);
 curl_setopt($curl, CURLOPT_HEADER, FALSE);
 curl_setopt($curl, CURLOPT_USERPWD, "$consumerKey:$consumerSecret");
 curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);  // Disable SSL verification (not recommended for production)
-curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);  // Disable SSL verification (not recommended for production)
+curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);  // Disable SSL verification (also not recommended for production)
 
 // Execute the cURL request
 $result = curl_exec($curl);

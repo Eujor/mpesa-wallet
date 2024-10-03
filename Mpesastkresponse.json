@@ -1,0 +1,82 @@
+{
+  "Body": {
+    "stkCallback": {
+      "MerchantRequestID": "1a9f-4ee1-b033-23e08eb44e5d40294698",
+      "CheckoutRequestID": "ws_CO_05072024144914012768168060",
+      "ResultCode": 0,
+      "ResultDesc": "The service request is processed successfully.",
+      "CallbackMetadata": {
+        "Item": [
+          {
+            "Name": "Amount",
+            "Value": 1
+          },
+          {
+            "Name": "MpesaReceiptNumber",
+            "Value": "SG51NQQ6LJ"
+          },
+          {
+            "Name": "Balance"
+          },
+          {
+            "Name": "TransactionDate",
+            "Value": 20240705144924
+          },
+          {
+            "Name": "PhoneNumber",
+            "Value": 0743418844
+          }
+        ]
+      }
+    }
+  }
+}
+
+
+{
+  "Body": {
+    "stkCallback": {
+      "MerchantRequestID": "1318-428a-abee-0f2b1b4631677171643",
+      "CheckoutRequestID": "ws_CO_05072024145027320768168060",
+      "ResultCode": 1032,
+      "ResultDesc": "Request cancelled by user"
+    }
+  }
+}
+
+
+
+{
+  "Body": {
+    "stkCallback": {
+      "MerchantRequestID": "1a9f-4ee1-b033-23e08eb44e5d40299376",
+      "CheckoutRequestID": "ws_CO_05072024145127456768168060",
+      "ResultCode": 2001,
+      "ResultDesc": "The initiator information is invalid."
+    }
+  }
+}
+
+
+{
+  "Body": {
+    "stkCallback": {
+      "MerchantRequestID": "ff0f-43c0-b52b-472325fc439d14239738",
+      "CheckoutRequestID": "ws_CO_05072024145238468768168060",
+      "ResultCode": 1,
+      "ResultDesc": "The balance is insufficient for the transaction."
+    }
+  }
+}
+
+
+{
+  "Body": {
+    "stkCallback": {
+      "MerchantRequestID": "1318-428a-abee-0f2b1b4631677177910",
+      "CheckoutRequestID": "ws_CO_05072024145330494768168060",
+      "ResultCode": 1037,
+      "ResultDesc": "DS timeout user cannot be reached"
+    }
+  }
+}

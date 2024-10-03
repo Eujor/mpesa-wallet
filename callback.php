@@ -53,7 +53,7 @@ if ($ResultCode == 0) {
             error_log("Error inserting transaction: " . mysqli_error($db));
         }
     } else {
-        // Handle case where the account balance could not be fetched
+        // Handle case where the account balance couldn't be fetched
         error_log("No account balance found.");
     }
 } else {

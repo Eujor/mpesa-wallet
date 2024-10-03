@@ -58,7 +58,7 @@ if ($ResultCode == 0) {
     }
 } else {
     // Handle unsuccessful transaction
-    error_log("Transaction not successful. ResultCode: $ResultCode, ResultDesc: $ResultDesc");
+    error_log("Transaction was not successful. ResultCode: $ResultCode, ResultDesc: $ResultDesc");
 }
 
 // Send a response back to M-PESA to acknowledge receipt of the callback

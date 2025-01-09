@@ -13,7 +13,7 @@ if (isset($_SESSION['username'])) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Wallet App || Login</title>
+  <title>Mpesa Wallet || Login</title>
   <link rel="stylesheet" href="styleapp.css">
 </head>
 
@@ -21,7 +21,7 @@ if (isset($_SESSION['username'])) {
   <div class="container">
     <div class="login form">
       <div class="containerholder">
-        <h1>Wallet App Login</h1>
+        <h1>Mpesa Wallet Login</h1>
         <form action="include/auth.php" method="POST">
           <?php
           if (isset($_GET['sucess'])) {

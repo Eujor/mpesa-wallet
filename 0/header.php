@@ -39,7 +39,10 @@ if (mysqli_num_rows($getAccountData) > 0) {
 <body>
   <div class="container">
     <div class="login form">
-      <div class="containerholder">        
+      <div class="containerholder">
+        <h1>Mpesa Wallet</h1>
+ 
+
         <div class="accout" id="account">
           <h2>Account Balance</h2>
           <h3>Ksh <?php

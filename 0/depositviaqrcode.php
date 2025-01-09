@@ -5,10 +5,10 @@ if (isset($_POST['genarateqrcode'])) {
   $amount = $_POST['amount'];
   $accountNumber = $_POST['accountNumber'];
   $DynamicQRUrl = "https://api.safaricom.co.ke/mpesa/qrcode/v1/generate";
-  $MerchantName = "Eugene Kariuki";
-  $AccountNumber = "";
+  $MerchantName = "EUJOR TEST PAY";
+  $AccountNumber = "Maya";
   $BusinessShortCode = "4666752";
-  $MerchantName = "Eugene Kariuki";
+  $MerchantName = "Mpesa Wallet";
   $payload = array(
     'MerchantName' => $MerchantName,
     'RefNo' =>  $accountNumber,
